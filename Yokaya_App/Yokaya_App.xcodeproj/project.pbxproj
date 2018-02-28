@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A34A20D52046674100F819E3 /* Screen_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A20D42046674100F819E3 /* Screen_1.swift */; };
+		A34A20D7204667AA00F819E3 /* Screen_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A20D6204667AA00F819E3 /* Screen_2.swift */; };
+		A34A20D9204667BC00F819E3 /* Screen_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A20D8204667BC00F819E3 /* Screen_3.swift */; };
+		A34A20DC20466C0900F819E3 /* Attributed_btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A20DB20466C0900F819E3 /* Attributed_btn.swift */; };
 		A3FBA95B2046556600F7A5A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FBA95A2046556600F7A5A7 /* AppDelegate.swift */; };
-		A3FBA95D2046556600F7A5A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FBA95C2046556600F7A5A7 /* ViewController.swift */; };
 		A3FBA9602046556600F7A5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FBA95E2046556600F7A5A7 /* Main.storyboard */; };
 		A3FBA9622046556600F7A5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FBA9612046556600F7A5A7 /* Assets.xcassets */; };
 		A3FBA9652046556600F7A5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FBA9632046556600F7A5A7 /* LaunchScreen.storyboard */; };
+		D1B0CC31D3F2EBE8EA8DDC9E /* Pods_Yokaya_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF314C51DCC4F8C277D89B2 /* Pods_Yokaya_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FF314C51DCC4F8C277D89B2 /* Pods_Yokaya_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yokaya_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34A20D42046674100F819E3 /* Screen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_1.swift; sourceTree = "<group>"; };
+		A34A20D6204667AA00F819E3 /* Screen_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_2.swift; sourceTree = "<group>"; };
+		A34A20D8204667BC00F819E3 /* Screen_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_3.swift; sourceTree = "<group>"; };
+		A34A20DB20466C0900F819E3 /* Attributed_btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributed_btn.swift; sourceTree = "<group>"; };
 		A3FBA9572046556600F7A5A7 /* Yokaya_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yokaya_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3FBA95A2046556600F7A5A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3FBA95C2046556600F7A5A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3FBA95F2046556600F7A5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3FBA9612046556600F7A5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3FBA9642046556600F7A5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3FBA9662046556600F7A5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3F418DE23494FDDE91898B0 /* Pods-Yokaya_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yokaya_App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yokaya_App/Pods-Yokaya_App.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB3B3C3066B54E485E0FB80 /* Pods-Yokaya_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yokaya_App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yokaya_App/Pods-Yokaya_App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B0CC31D3F2EBE8EA8DDC9E /* Pods_Yokaya_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A34A20DA20466BE300F819E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A34A20DB20466C0900F819E3 /* Attributed_btn.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A38519BC20465DFD00173B84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A34A20D42046674100F819E3 /* Screen_1.swift */,
+				A34A20D6204667AA00F819E3 /* Screen_2.swift */,
+				A34A20D8204667BC00F819E3 /* Screen_3.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A3D26227AAA312C2FA5DE5A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FF314C51DCC4F8C277D89B2 /* Pods_Yokaya_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3FBA94E2046556600F7A5A7 = {
 			isa = PBXGroup;
 			children = (
 				A3FBA9592046556600F7A5A7 /* Yokaya_App */,
 				A3FBA9582046556600F7A5A7 /* Products */,
+				B4077B8D581C09ACB9F0F763 /* Pods */,
+				A3D26227AAA312C2FA5DE5A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,24 @@
 		A3FBA9592046556600F7A5A7 /* Yokaya_App */ = {
 			isa = PBXGroup;
 			children = (
+				A34A20DA20466BE300F819E3 /* Models */,
+				A38519BC20465DFD00173B84 /* Controllers */,
 				A3FBA95A2046556600F7A5A7 /* AppDelegate.swift */,
-				A3FBA95C2046556600F7A5A7 /* ViewController.swift */,
 				A3FBA95E2046556600F7A5A7 /* Main.storyboard */,
 				A3FBA9612046556600F7A5A7 /* Assets.xcassets */,
 				A3FBA9632046556600F7A5A7 /* LaunchScreen.storyboard */,
 				A3FBA9662046556600F7A5A7 /* Info.plist */,
 			);
 			path = Yokaya_App;
+			sourceTree = "<group>";
+		};
+		B4077B8D581C09ACB9F0F763 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3F418DE23494FDDE91898B0 /* Pods-Yokaya_App.debug.xcconfig */,
+				EAB3B3C3066B54E485E0FB80 /* Pods-Yokaya_App.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3FBA9692046556600F7A5A7 /* Build configuration list for PBXNativeTarget "Yokaya_App" */;
 			buildPhases = (
+				D8E7CD2128502EB4930D7A40 /* [CP] Check Pods Manifest.lock */,
 				A3FBA9532046556600F7A5A7 /* Sources */,
 				A3FBA9542046556600F7A5A7 /* Frameworks */,
 				A3FBA9552046556600F7A5A7 /* Resources */,
+				E2525A626220BB4EE4D93A6F /* [CP] Embed Pods Frameworks */,
+				1DEE372223FBEA58CB71AF21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +183,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DEE372223FBEA58CB71AF21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yokaya_App/Pods-Yokaya_App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E7CD2128502EB4930D7A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2525A626220BB4EE4D93A6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yokaya_App/Pods-Yokaya_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3FBA9532046556600F7A5A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3FBA95D2046556600F7A5A7 /* ViewController.swift in Sources */,
+				A34A20D7204667AA00F819E3 /* Screen_2.swift in Sources */,
 				A3FBA95B2046556600F7A5A7 /* AppDelegate.swift in Sources */,
+				A34A20DC20466C0900F819E3 /* Attributed_btn.swift in Sources */,
+				A34A20D52046674100F819E3 /* Screen_1.swift in Sources */,
+				A34A20D9204667BC00F819E3 /* Screen_3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +375,7 @@
 		};
 		A3FBA96A2046556600F7A5A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F418DE23494FDDE91898B0 /* Pods-Yokaya_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +390,7 @@
 		};
 		A3FBA96B2046556600F7A5A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB3B3C3066B54E485E0FB80 /* Pods-Yokaya_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
