@@ -1,5 +1,5 @@
 //
-//  Attributed_btn.swift
+//  Attributed_txt.swift
 //  Yokaya_App
 //
 //  Created by Danny Bokati on 2/28/18.
@@ -8,14 +8,12 @@
 
 import UIKit
 
-class Attributed_btn: UIButton {
+class Attributed_txt: UITextField {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        layer.backgroundColor = #colorLiteral(red: 0.08690079302, green: 0.4819673896, blue: 0.9389955401, alpha: 1)
         layer.cornerRadius = layer.frame.height / 2
         
     }
-   
 
 }
